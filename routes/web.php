@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Hello from RCOEM";
+    return "Hello from CSE , RCOEM";
 });
 
 Route::get('/aboutus', function () {
@@ -22,7 +22,7 @@ Route::get('/aboutus', function () {
 });
 
 Route::view('/contact', 'contact', [
-    "name" => "Tushar"
+    "name" => "Ashwini"
 ]);
 
 // Route::get('/person/{name}', function($name){
